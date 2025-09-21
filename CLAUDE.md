@@ -251,6 +251,52 @@ All public repositories are evaluated using a 60-point rubric across 6 dimension
 - **Session Management**: Shared patterns between agent-music and CCB
 - **Documentation Standards**: Consistent use of CLAUDE.md across projects
 
+## Session Management Procedures
+
+### Wind Down Process (MANDATORY)
+When user says "wind down", execute these steps IN ORDER:
+
+1. **Summarize session achievements** - Display in terminal
+2. **Check for uncommitted changes** - Run git status in all active repos
+3. **Write session summary to disk** - Create `SESSION_YYYY-MM-DD.md`
+4. **Commit session summary** - Add to git with descriptive message
+5. **Report completion** - Confirm all steps completed
+
+### Session Summary Template
+```markdown
+# Session Summary - YYYY-MM-DD
+
+## Overview
+[Brief description of session focus]
+
+## Key Accomplishments
+- [Major achievement 1]
+- [Major achievement 2]
+
+## Repository Changes
+| Repository | Changes | Status |
+|------------|---------|--------|
+
+## Files Created/Modified
+- [List of important files]
+
+## Lessons Learned
+- [Key insights]
+
+## Next Session Priorities
+1. [Priority task 1]
+2. [Priority task 2]
+
+## Session Metrics
+- Duration: [time]
+- Repositories affected: [count]
+- Files modified: [count]
+- Tests added: [count]
+```
+
+### Automated Wind Down Script
+Use `wind_down.sh` for consistent process (see script in this directory).
+
 ## Next Steps
 
 1. Commit pending changes in flagged repositories
