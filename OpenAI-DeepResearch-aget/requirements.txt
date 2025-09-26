@@ -1,0 +1,8 @@
+streamlit
+openai>=1.50
+pydantic>=2.0.0
+python-dotenv
+typing-extensions
+asyncio
+# AGET v2 additions
+rich>=13.0.0

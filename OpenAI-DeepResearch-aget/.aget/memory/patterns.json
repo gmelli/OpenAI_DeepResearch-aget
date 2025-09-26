@@ -1,0 +1,47 @@
+[
+  {
+    "query": "What is a transformer architecture?",
+    "query_type": "conceptual_explanation",
+    "method": "openai_agents",
+    "success": true,
+    "response_time": 45.2,
+    "citations_count": 15,
+    "timestamp": "2025-09-25T22:24:21.927420"
+  },
+  {
+    "query": "How to implement error handling in Python?",
+    "query_type": "technical_implementation",
+    "method": "openai_agents",
+    "success": true,
+    "response_time": 32.1,
+    "citations_count": 8,
+    "timestamp": "2025-09-25T22:24:21.927433"
+  },
+  {
+    "query": "Analyze the competitive landscape of AI tools",
+    "query_type": "comprehensive_analysis",
+    "method": "deep_research_api",
+    "success": true,
+    "response_time": 187.5,
+    "citations_count": 78,
+    "timestamp": "2025-09-25T22:24:21.927438"
+  },
+  {
+    "query": "Best practices for microservices",
+    "query_type": "recommendation",
+    "method": "deep_research_api",
+    "success": true,
+    "response_time": 156.3,
+    "citations_count": 65,
+    "timestamp": "2025-09-25T22:24:21.927442"
+  },
+  {
+    "query": "How to use async/await in JavaScript?",
+    "query_type": "technical_implementation",
+    "method": "openai_agents",
+    "success": true,
+    "response_time": 28.7,
+    "citations_count": 5,
+    "timestamp": "2025-09-25T22:24:21.927447"
+  }
+]
